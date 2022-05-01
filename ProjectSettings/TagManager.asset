@@ -11,11 +11,12 @@ TagManager:
   - Undefined
   - WeaponManager
   - enemigo
+  - objetointeractivo
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - RaycastDetect
   - Water
   - UI
   - 

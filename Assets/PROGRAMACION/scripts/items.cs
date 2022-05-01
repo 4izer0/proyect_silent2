@@ -33,7 +33,7 @@ public class items : MonoBehaviour
 
             for (int i = 0; i < allwepons; i++)
             {
-                if (WeaponManager.transform.GetChild(i).gameObject.GetComponent<items>().ID == ID)
+                if (WeaponManager.transform.GetChild(i).gameObject.GetComponent<items>().ID==ID)
                 {
                     weapon = WeaponManager.transform.GetChild(i).gameObject;
                 }
