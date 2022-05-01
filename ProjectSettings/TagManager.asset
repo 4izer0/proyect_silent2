@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Items
+  - item
+  - Item
+  - items
+  - Undefined
+  - WeaponManager
+  - enemigo
   layers:
   - Default
   - TransparentFX

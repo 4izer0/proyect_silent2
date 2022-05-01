@@ -31,10 +31,10 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i <allSlots; i++)
         {
             slot[i] = slotHolder.transform.GetChild(i).gameObject;
-
             if (slot[i].GetComponent<Slot>().item==null)
-            {
-                slot[i].GetComponent<Slot>().empty = true;
+            { 
+                    slot[i].GetComponent<Slot>().empty = true;
+                
             }
 
         }
@@ -73,7 +73,7 @@ public class Inventory : MonoBehaviour
 
             if (slot[i].GetComponent<Slot>().empty)
             {
-                itemObject.GetComponent<items>().pickedUP = true;
+                itemObject.GetComponent<items>().pickedUp = true;
 
                 slot[i].GetComponent<Slot>().item = itemObject;
                 slot[i].GetComponent<Slot>().ID = itemID;
@@ -85,9 +85,14 @@ public class Inventory : MonoBehaviour
                 itemObject.transform.parent = slot[i].transform;
                 itemObject.SetActive(false);
 
+                slot[i].GetComponent<Slot>().UpdateSlot();
+
+
                 slot[i].GetComponent<Slot>().empty = false;
 
+                return;
             }
+            
         }
 
     }
