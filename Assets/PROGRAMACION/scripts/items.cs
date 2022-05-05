@@ -25,7 +25,7 @@ public class items : MonoBehaviour
 
     private void Start()
     {
-        WeaponManager = GameObject.FindWithTag("WeaponManager");
+        WeaponManager = GameObject.FindWithTag("items");
         
         if (!playersWeapon)
         {
