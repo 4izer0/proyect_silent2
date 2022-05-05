@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17773822, g: 0.21608557, b: 0.26769358, a: 1}
+  m_IndirectSpecularColor: {r: 0.17776023, g: 0.2161268, b: 0.26778734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1513,7 +1513,7 @@ RectTransform:
   m_GameObject: {fileID: 39617311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5649998, y: 2.8501, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1645209707}
@@ -1523,7 +1523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.29999542, y: 0}
+  m_AnchoredPosition: {x: 11, y: -7.1344}
   m_SizeDelta: {x: 343.57782, y: 214.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &42493484
@@ -22633,7 +22633,7 @@ GameObject:
   - component: {fileID: 978251375}
   - component: {fileID: 978251374}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: asnvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22668,7 +22668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -41661,7 +41661,7 @@ RectTransform:
   m_GameObject: {fileID: 1758055498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.325, y: 1, z: 1}
+  m_LocalScale: {x: 3.4782574, y: 1.9251, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 329732185}
@@ -41672,7 +41672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -97, y: 95}
+  m_AnchoredPosition: {x: -169, y: 271}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1758055500
