@@ -17,6 +17,8 @@ public class llave : MonoBehaviour
 
     float time;
 
+    public AudioSource Puerta;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,9 @@ public class llave : MonoBehaviour
         if (other.tag == "Player")
         {
             targetPosition = openTranForm.position;
+            Puerta.Play();
             anim = GetComponent<Animator>();
+
         }
     }
 
@@ -48,6 +52,7 @@ public class llave : MonoBehaviour
         {
             targetPosition = closedTransfor.position;
             anim = GetComponent<Animator>();
+            Puerta.Play();
         }
     }
 
