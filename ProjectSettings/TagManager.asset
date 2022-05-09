@@ -14,6 +14,9 @@ TagManager:
   - objetointeractivo
   - Coin
   - CoinYin
+  - CoinYinRisas
+  - noCorras
+  - CoinKill
   layers:
   - Default
   - TransparentFX

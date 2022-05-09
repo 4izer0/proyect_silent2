@@ -11,6 +11,10 @@ public class coinYIN : MonoBehaviour
 
     public AudioSource Coinyin;
 
+    public AudioSource CoinyinRisas;
+
+    public AudioSource nocorras;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "CoinYin")
@@ -20,7 +24,20 @@ public class coinYIN : MonoBehaviour
             Yin += 1;
             TMP.text = Yin.ToString("0");
         }
+        if (other.tag == "CoinYinRisas")
+        {
+            Destroy(other.gameObject);
+            CoinyinRisas.Play();
+            Yin += 1;
+            TMP.text = Yin.ToString("0");
+        }
+        if (other.tag == "noCorras")
+        {
+            Destroy(other.gameObject);
+            nocorras.Play();
+            Yin += 1;
+            TMP.text = Yin.ToString("0");
 
-
+        }
     }
 }
