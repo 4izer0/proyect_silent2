@@ -40282,7 +40282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078186905214100, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1078186905214100, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_TagString
@@ -40294,15 +40294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4528027760560998, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.3671
+      value: 409.13
       objectReference: {fileID: 0}
     - target: {fileID: 4528027760560998, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2023
+      value: 0.886
       objectReference: {fileID: 0}
     - target: {fileID: 4528027760560998, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 41.0496
+      value: 140.42
       objectReference: {fileID: 0}
     - target: {fileID: 4528027760560998, guid: c4241aef38da2964b85bf59c4610ca3a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -91921,7 +91921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1753139959
 MonoBehaviour:
   m_ObjectHideFlags: 0
