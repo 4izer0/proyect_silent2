@@ -12,6 +12,8 @@ TagManager:
   - WeaponManager
   - enemigo
   - objetointeractivo
+  - Coin
+  - CoinYin
   layers:
   - Default
   - TransparentFX

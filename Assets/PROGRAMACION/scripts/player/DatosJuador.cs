@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class DatosJuador : MonoBehaviour
 {
+    public FirstPersonController bPM;
+        
     public int vidaPlayer;
     public Slider vidaVisual;
 
@@ -18,6 +21,7 @@ public class DatosJuador : MonoBehaviour
         if (vidaPlayer <=0)
         {
             Debug.Log("game over");
+            Destroy(bPM);
         }
     }
 }
