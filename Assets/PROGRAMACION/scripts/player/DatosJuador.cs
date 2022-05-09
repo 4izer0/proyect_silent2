@@ -7,6 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class DatosJuador : MonoBehaviour
 {
     public FirstPersonController bPM;
+    public Attack Bpm;
         
     public int vidaPlayer;
     public Slider vidaVisual;
@@ -22,6 +23,7 @@ public class DatosJuador : MonoBehaviour
         {
             Debug.Log("game over");
             Destroy(bPM);
+            Destroy(Bpm);
         }
     }
 }
