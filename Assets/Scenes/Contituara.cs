@@ -10,7 +10,8 @@ public class Contituara : MonoBehaviour
         if (other.tag == "Player")
         {
             SceneManager.LoadScene("Continuara");
-
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
         }
 
 

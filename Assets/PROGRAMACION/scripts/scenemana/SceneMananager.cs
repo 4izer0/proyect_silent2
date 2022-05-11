@@ -30,6 +30,11 @@ public class SceneMananager : MonoBehaviour
     public void ActivateGameOVerScreen()
     {
         gOS.SetActive(true);
+        FindObjectOfType<CharacterController>().enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+
     }
 
 
